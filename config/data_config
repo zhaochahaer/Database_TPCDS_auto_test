@@ -1,0 +1,14 @@
+qbmconfig -c qb_enable_global_deadlock_detector -v on
+qbmconfig -c max_connections -v 2000 -m 500
+qbmconfig -c max_prepared_transactions -v 500
+qbmconfig -c qb_vmem_protect_limit -v 16384 -m 32768
+qbmconfig -c shared_buffers -v 2GB -m 8GB
+qbmconfig -c work_mem -v 4GB -m 8GB
+qbmconfig -c log_statement -v none
+qbmconfig -c temp_buffers -v 8GB -m 16GB
+qbmconfig -c statement_mem -v 8GB -m 16GB
+qbmconfig -c max_statement_mem -v 8GB -m 16GB
+qbmconfig -c maintenance_work_mem -v 16GB
+qbmconfig -c qb_pushdown_selectivity_threshold -v 0.2
+qbmconfig -c qb_interconnect_queue_depth -v '1024'
+qbmconfig -c optimizer_parallel_union -v 'on'

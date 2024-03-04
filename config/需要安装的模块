@@ -1,0 +1,8 @@
+pip3 install paramiko -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install wget -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install openpyxl -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install schedule -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip3 install xlrd==1.2.0 -i https://pypi.tuna.tsinghua.edu.cn/simple
+ssh：保证节点之间互联
+创建好qbadmin用户
